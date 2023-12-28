@@ -13,10 +13,8 @@
 <h2>Constraints</h2>
 
 <pre>
-
 1 <= nums.length <= 10<sup>5</sup>
 -10<sup>4</sup> <= nums[i] <= 10<sup>4</sup>
-
 </pre>
 
 <h2>Test Cases</h2>
