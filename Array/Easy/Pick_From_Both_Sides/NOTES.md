@@ -2,27 +2,27 @@
 
 <h2>Brute Force Approach</h2>
 
-<p>The trivial solution here is to update all the indices with the given value from the starting index to the ending index. These will lead to a time complexity of O(N^2) and we will run into a <b>TLE</b> error.</p>
+<p>The trivial solution here is to iterate through all the subarrays of size K from both ends picking from both sides; computing the sum of each subarray and returning the maximum..</p>
 
 ```
 Time Complexity: O(N^2)
-Space Complexity: O(N)
+Space Complexity: O(1)
 ```
 
 <h2>Efficient Solution</h2>
 
-<p>Here we need to use the concept of <b>Difference Array</b>. If we want to update a value K from indices I to J, then we can simply do A[i - 1] += K and A[j] -= K. After this operation, the prefix sum of this resultant array will be the solution. Thus each operation takes only O(1) time complexity.</p>
+<p>Here we need to use the concept of <b>Prefix Sum</b> to precompute the sum of all the subarrays initially. Since the sum can be from either end, we can take both prefix and suffix sum array calling it as right sum and left sum. Then we just iterate till the first K elements and accordingly, choose the left and desired right sum to compute the maximum sum.</p>
 
 <h2>Edge Cases</h2>
 <ul>
-  <li>The starting index should not underflow.</li>
-  <li>The ending index should not overflow.</li>
+  <li>The right sum should be 0 when the current index is 0.</li>
+  <li>The left sum should be 0 when the current index is N - K.</li>
 </ul>
 
 <h2>Time Complexity</h2>
 
-<p><b>O(N)</b> assuming there are N number of operations.</p>
+<p><b>O(K)</b></p>
 
 <h2>Space Complexity</h2>
 
-<p><b>O(N)</b> which is the size of the resultant array.</p>
+<p><b>O(N)</b> for storing the prefix and the suffix sum.</p>
