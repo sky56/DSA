@@ -1,20 +1,20 @@
-int pickFromBothSides(vector<int> &nums, int K) {
-    vector<int> prefixSum(nums.size()), suffixSum(nums.size());
+int maxScore(vector<int> &cardPoints, int k) {
+    int currSum = 0, maxSum = INT_MIN;
 
-    prefixSum[0] = nums[0];
-    for (int i = 0; i < nums.size(); i++) {
-        prefixSum[i] = prefixSum[i-1] + nums[i];
+    // make a sliding window sum for the first k elements
+    for (int i = 0; i < k; i++) {
+        currSum += cardPoints[i];
     }
 
-    int maxSum = INT_MIN, startIndex = -1;
+    maxSum = currSum;
 
-    for (int i = nums.size() - K; i <= nums.size(); i++) {
-        int leftSum = startIndex == -1 ? 0 : prefixSum[startIndex];
-        int rightSum = i == nums.size() ? 0 : prefixSum[A.size() - 1] - prefixSum[i-1];
+    // iterate through the window in reverse order to remove the element from the window and add from the end
+    for (int i = k - 1; i >= 0; i--) {
+        currSum -= cardPoints[i];
+        currSum += cardPoints[cardPoints.size() - k + i];
 
-        maxSum = max(maxSum, (leftSum + rightSum));
-        startIndex++;
+        maxSum = max(maxSum,currSum);
+        
     }
-
     return maxSum;
 }
