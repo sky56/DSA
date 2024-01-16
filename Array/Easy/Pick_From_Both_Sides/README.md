@@ -1,29 +1,24 @@
-<h1>Continuous Sum Query</h1>
+<h1>Pick From Both Sides</h1>
 
-<p>There are <b>A</b> beggars sitting in a row outside a temple. Each beggar initially has an empty pot. When the devotees come to the temple, they donate some amount of coins to these beggars. Each devotee gives a fixed amount of coin(according to their faith and ability) to some <b>K</b> beggars sitting next to each other.
-
-Given the amount <b>B</b> donated by each devotee to the beggars ranging from <b>L to R index, where 1 <= L <= R <= A</b>, find out the final amount of money in each beggar's pot at the end of the day, provided they don't fill their pots by any other means.
-
-For i<sup>th</sup> devotee B[i][0] = L, B[i][1] = R, B[i][2] = P, given by the 2D array B</p>
+<p>There is a array <b>nums</b> of size <b>N</b>. There are total <b>K</b> operations to be performed. In each operation, either the leftmost or the rightmost element of the array can be removed. Find and return the <b>maximum possible sum</b> of the <b>K</b> elements that were removed after <b>K</b> operations.</p>
 
 <h2>Input Format</h2>
 
 <pre>
-The first argument is a single integer A.
-The second argument is a 2D integer array B.
+The first argument is the array nums.
+The second argument is an integer K.
 </pre>
 
 <h2>Output Format</h2>
 
-<p>Return an array(0 based indexing) that stores the total number of coins in each beggars pot.</p>
+<p>Return an integer denoting the maximum possible sum of elements you removed.</p>
 
 <h2>Constraints</h2>
 
 <pre>
-1 <= A <= 2 * 10<sup>5</sup>
-1 <= L <= R <= A
-1 <= P <= 10<sup>3</sup>
-0 <= len(B) <= 10<sup>5</sup>
+1 <= N <= 10<sup>5</sup>
+1 <= K <= N
+-10<sup>3</sup> <= nums[i] <= 10<sup>3</sup>
 </pre>
 
 <h2>Test Cases</h2>
@@ -31,9 +26,17 @@ The second argument is a 2D integer array B.
 <h4>Test Case 1</h4>
 
 ```
-A = 5
-B = [[1, 2, 10], [2, 3, 20], [2, 5, 25]]
-Output: 10 55 45 25 25
+nums = [5, -2, 3 , 1, 2]
+K = 3
+Output: 8
+```
+
+<h4>Test Case 2</h4>
+
+```
+nums = [ 2, 3, -1, 4, 2, 1 ]
+K = 4
+Output: 9
 ```
 
 <h2>Companies</h2>
