@@ -11,18 +11,15 @@ Space Complexity: O(1)
 
 <h2>Efficient Solution</h2>
 
-<p>Here we need to use the concept of <b>Prefix Sum</b> to precompute the sum of all the subarrays initially. Since the sum can be from either end, we can take both prefix and suffix sum array calling it as right sum and left sum. Then we just iterate till the first K elements and accordingly, choose the left and desired right sum to compute the maximum sum.</p>
+<p>Here we need to use the concept of <b>Sliding Window</b> where we first compute the sum of the first k elements and make it as a candidate of the maximum sum. Now we keep on removing one element from the end of the window and add an element from the end of the array into the current sum. We also compute the maximum sum at each iteration.</p>
 
 <h2>Edge Cases</h2>
-<ul>
-  <li>The right sum should be 0 when the current index is 0.</li>
-  <li>The left sum should be 0 when the current index is N - K.</li>
-</ul>
+<ul></ul>
 
 <h2>Time Complexity</h2>
 
-<p><b>O(K)</b></p>
+<p><b>O(N) when K = N</b></p>
 
 <h2>Space Complexity</h2>
 
-<p><b>O(N)</b> for storing the prefix and the suffix sum.</p>
+<p><b>O(1)</b></p>
