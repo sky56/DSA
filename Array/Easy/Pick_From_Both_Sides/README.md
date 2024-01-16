@@ -1,24 +1,30 @@
-<h1>Pick From Both Sides</h1>
+<h1>Maximum points you can obtain from cards</h1>
 
-<p>There is a array <b>nums</b> of size <b>N</b>. There are total <b>K</b> operations to be performed. In each operation, either the leftmost or the rightmost element of the array can be removed. Find and return the <b>maximum possible sum</b> of the <b>K</b> elements that were removed after <b>K</b> operations.</p>
+<p>There are several cards arranged in a row, and each card has an associated number of points. The points are given in the integer array <b>cardPoints.</b>
+
+In one step, you can take one card from the beginning or from the end of the row. You have to take exactly <b>k</b> cards.
+
+Your score is the sum of the points of the cards you have taken.
+
+Given the integer array cardPoints and the integer k, return the maximum score you can obtain.</p>
 
 <h2>Input Format</h2>
 
 <pre>
-The first argument is the array nums.
-The second argument is an integer K.
+The first argument is the array cardPoints
+The second argument is an integer k.
 </pre>
 
 <h2>Output Format</h2>
 
-<p>Return an integer denoting the maximum possible sum of elements you removed.</p>
+<p>Return an integer denoting the maximum possible score that can be obtained.</p>
 
 <h2>Constraints</h2>
 
 <pre>
-1 <= N <= 10<sup>5</sup>
-1 <= K <= N
--10<sup>3</sup> <= nums[i] <= 10<sup>3</sup>
+1 <= cardPoints.length <= 10<sup>5</sup>
+1 <= K <= cardPoints.length
+1 <= cardPoints[i] <= 10<sup>4</sup>
 </pre>
 
 <h2>Test Cases</h2>
@@ -26,17 +32,17 @@ The second argument is an integer K.
 <h4>Test Case 1</h4>
 
 ```
-nums = [5, -2, 3 , 1, 2]
+cardPoints = [1,2,3,4,5,6,1]
 K = 3
-Output: 8
+Output: 12
 ```
 
 <h4>Test Case 2</h4>
 
 ```
-nums = [ 2, 3, -1, 4, 2, 1 ]
-K = 4
-Output: 9
+cardPoints = [2,2,2]
+K = 2
+Output: 4
 ```
 
 <h2>Companies</h2>
