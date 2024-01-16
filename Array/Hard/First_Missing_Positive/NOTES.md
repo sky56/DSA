@@ -23,4 +23,4 @@
 
 <h2>Space Complexity</h2>
 
-<p><b>O(N) but no extra auxiliary space</b></p>
+<p><b>O(1) auxiliary space</b></p>
