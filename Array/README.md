@@ -1,7 +1,7 @@
 ## Arrays
 
 <details open>
-<summary><img id="array" src="https://img.shields.io/badge/Arrays-6-brightgreen?style=for-the-badge"></summary>
+<summary><img id="array" src="https://img.shields.io/badge/Arrays-7-brightgreen?style=for-the-badge"></summary>
 
 
 | S.No. | Topic:              | Problem                                                                                                                                                  | Difficulty                                                              | Links  |
