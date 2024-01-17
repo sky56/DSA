@@ -1,6 +1,20 @@
-<h1>Increasing Triplet Subsequence</h1>
+<h1>Ways to Make a Fair Array</h1>
 
-<p>Given an integer array nums, return true if there exists a triple of indices <b>(i, j, k) such that i < j < k and nums[i] < nums[j] < nums[k]</b>. If no such indices exist, return <b>false</b>.</p>
+<p>You are given an integer array <b>nums</b>. You can choose exactly <b>one index (0-indexed)</b> and <b>remove</b> the element. Notice that the index of the elements may change after the removal.
+
+For example, if <b>nums = [6,1,7,4,1]</b>:
+
+<ul>
+<li>Choosing to remove index <b>1</b> results in <b>nums = [6,7,4,1]</b>.</li>
+<li>Choosing to remove index <b>2</b> results in <b>nums = [6,1,4,1]</b>.</li>
+<li>Choosing to remove index <b>4</b> results in <b>nums = [6,1,7,4]</b>.</li>
+</ul>
+
+An array is <b>fair</b> if the sum of the odd-indexed values equals the sum of the even-indexed values.
+
+Return the <b>number of indices</b> that you could choose such that after the removal, nums is <b>fair</b>.
+
+</p>
 
 <h2>Input Format</h2>
 
@@ -11,14 +25,14 @@ The only argument given is the integer array nums.
 <h2>Output Format</h2>
 
 <pre>
-Return the boolean whether a valid triplet exists.
+Return an integer which will be the count of indices, upon whose removal will make the array fair.
 </pre>
 
 <h2>Constraints</h2>
 
 <pre>
-1 <= nums.length <= 5 * 10<sup>5</sup>
--2<sup>31</sup> <= nums[i] < 2<sup>32</sup> - 1
+1 <= nums.length <= 10<sup>5</sup>
+1 <= nums[i] < 10<sup>4</sup>
 </pre>
 
 <h2>Test Cases</h2>
@@ -26,15 +40,15 @@ Return the boolean whether a valid triplet exists.
 <h4>Test Case 1</h4>
 
 <pre>
-nums = [1,2,3,4,5]
-Output: true
+nums = [2,1,6,4]
+Output: 1
 </pre>
 
-<h4>Test Case 1</h4>
+<h4>Test Case 2</h4>
 
 <pre>
-nums = [5,4,3,2,1]
-Output: false
+nums = [1,1,1]
+Output: 3
 </pre>
 
 <h2>Companies</h2>
