@@ -3,27 +3,38 @@
 <h2>Brute Force Approach</h2>
 
 <p>
-The most trivial solution would be to run 3 loops for <b>nums[i], nums[j], and nums[k]</b> to check for <b>nums[i] < nums[j] < nums[k]</b>. For each valid condition of <b>nums[i] < nums[j]</b> and <b>nums[j] < nums[k]</b>, we keep track of the <b>corresponding minimum cost</b>.
+One approach to solve this problem will be <b>sorting</b> in the <b>reverse</b> order. Once the array is sorted, we can mark the first element as the largest and keep on iterating unless we encounter an <b>element different from the largest element</b>. That element will be our second largest element. TC will <b>O(NLogN + N)</b>.
 
-<pre>
-Time Complexity: O(N<sup>3</sup>)
-Space Complexity: O(1)
-</pre>
+Another approach to solving this problem is to use two passes, where in the first pass we mark the largest element in the array. In the second pass, we find the largest element but ignore the already marked largest element. The result we get in the second will be the second largest element in the array. TC will <b>O(N)</b> but with <b>two passes</b>.
 </p>
 
 <h2>Efficient Solution</h2>
 
-<p>Since the max input size in in order of <b>10<sup>3</sup></b>, therefore we can come up with a quadratic TC. We <b>fix the second element</b> and then iterate left to check the number smaller than it along with traversing right to check for an element greater than it. For each matched case, we maintain the <b>minimum leftCost</b> and <b>minimum rightCost</b>. If both leftCost and rightCost have valid values, the minimum sum of <b>leftCost + rightCost + cost[i]</b> becomes a valid solution. </p>
+<p>We initialise 2 state variables as:
+
+<pre>
+largest = nums[0]
+secondLargest = -1
+</pre>
+
+We then traverse the entire array one by one and perform the following actions based on the below scenarios:
+
+<ul>
+  <li>If <b>nums[i] > largest</b>, we update <b>secondLargest to largest</b> and <b>largest to nums[i]</b>.</li>
+  <li>If <b>nums[i] > secondLargest and nums[i] != largest</b>, we update <b>secondLargest = nums[i]</b>.</li>
+</ul>
+
+</p>
 
 <h2>Edge Cases</h2>
 <ul>
-  <li>Size of the input arr should be greater than equal to 3</li>
-  <li>If there is no valid triplet for nums[i] < nums[j] < nums[k], we return -1</li>
+  <li>Size of the input nums should be greater than 2.</li>
+  <li>There must exist at least 2 distinct elements in the array.</li>
 </ul>
 
 <h2>Time Complexity</h2>
 
-<p><b>O(N<sup>2</sup>)</b></p>
+<p><b>O(N)</b></p>
 
 <h2>Space Complexity</h2>
 
