@@ -1,7 +1,7 @@
 ## Arrays
 
 <details open>
-<summary><img id="array" src="https://img.shields.io/badge/Arrays-14-brightgreen?style=for-the-badge"></summary>
+<summary><img id="array" src="https://img.shields.io/badge/Arrays-15-brightgreen?style=for-the-badge"></summary>
 
 
 | S.No. | Topic:              | Problem                                                                                                                                                  | Difficulty                                                              | Links  |
@@ -20,6 +20,7 @@
 | 12     | `Array`             | [Three Elements Min Cost](https://github.com/sky56/DSA/tree/main/Array/Easy/Three_Elements_Min_Cost)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Easy-green"></a>  | <a href="https://www.geeksforgeeks.org/minimum-cost-of-choosing-3-increasing-elements-in-an-array-of-size-n/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a>
 | 13     | `Array`             | :star: [Rotate Array](https://github.com/sky56/DSA/tree/main/Array/Medium/Rotate_Array)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/rotate-array/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
 | 14     | `Array`             | [Fair Array](https://github.com/sky56/DSA/tree/main/Array/Medium/Fair_Array)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/print-indices-of-array-elements-whose-removal-makes-the-sum-of-odd-and-even-indexed-elements-equal/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/ways-to-make-a-fair-array/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
+| 15     | `Array`             | [Second Largest](https://github.com/sky56/DSA/tree/main/Array/Easy/Second_Largest)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Easy-green"></a>  | <a href="https://www.geeksforgeeks.org/find-second-largest-element-array/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a>
 
 
 
