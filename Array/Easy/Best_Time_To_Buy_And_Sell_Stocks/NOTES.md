@@ -2,34 +2,22 @@
 
 <h2>Brute Force Approach</h2>
 
-<p>
-One approach to solve this problem will be <b>sorting</b> in the <b>reverse</b> order. Once the array is sorted, we can mark the first element as the largest and keep on iterating unless we encounter an <b>element different from the largest element</b>. That element will be our second largest element. TC will <b>O(NLogN + N)</b>.
+<p>The naive approach will be that we <b>fix every prices[i] as the potential buy price</b> and then traverse each element in the right to get the maximum prices[i] for selling and calculate the profit accordingly.
 
-Another approach to solving this problem is to use two passes, where in the first pass we mark the largest element in the array. In the second pass, we find the largest element but ignore the already marked largest element. The result we get in the second will be the second largest element in the array. TC will <b>O(N)</b> but with <b>two passes</b>.
+<pre>
+  Time Complexity: O(N<sup>2</sup>)
+  Space Complexity: O(1)
+</pre>
 </p>
 
 <h2>Efficient Solution</h2>
 
-<p>We initialise 2 state variables as:
-
-<pre>
-largest = nums[0]
-secondLargest = -1
-</pre>
-
-We then traverse the entire array one by one and perform the following actions based on the below scenarios:
-
-<ul>
-  <li>If <b>nums[i] > largest</b>, we update <b>secondLargest to largest</b> and <b>largest to nums[i]</b>.</li>
-  <li>If <b>nums[i] > secondLargest and nums[i] != largest</b>, we update <b>secondLargest = nums[i]</b>.</li>
-</ul>
-
+<p> To <b>maximize</b> the profit, we have to <b>minimize the cost price</b> and <b>maximize the selling price</b>. Thus we iterate every element in the array and on every iterate we keep <b>track of the minimum cost price</b>. We take the difference of the current element with the minimum cost price to calculate the profit and also update the maximum profit.
 </p>
 
 <h2>Edge Cases</h2>
 <ul>
-  <li>Size of the input nums should be greater than 2.</li>
-  <li>There must exist at least 2 distinct elements in the array.</li>
+  <li>If there is no profit, the result should be 0.</li>
 </ul>
 
 <h2>Time Complexity</h2>
