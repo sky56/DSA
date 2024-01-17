@@ -2,18 +2,20 @@
 
 <h2>Brute Force Approach</h2>
 
-<p>The most trivial solution would be to run 3 loops for <b>nums[i], nums[j], and nums[k]</b> to check for <b>nums[i] < nums[j] < nums[k]</b> and break the loops when a valid triplet is encountered. The TC will be <b>O(N<sup>3</sup>)</b>.
+<p>A brute force solution will be to <b>consider every subarray</b> and keep track of the product of every subarray along with updating the maximum result.
 
-A more optimal solution is to <b>fix the middle element</b> and traverse left to find a number smaller than it along with traverse right to find a number greater than it. In this approach, we will be able to compute the solution in <b>O(N<sup>2</sup>)</b> TC but that will also not suffice our solution since a solution in linear complexity is expected. </p>
+<pre>
+Time Complexity: O(N<sup>2</sup>)
+Space Complexity: O(1)
+</pre>
+
+</p>
 
 <h2>Efficient Solution</h2>
 
-<p>We take 2 variables as first and second representing the first smaller and the second smaller. Then we iterate the entire array and we have the following 3 possibilities in each of the iterations:
-<u>
-  <li>If the element is smaller than the first, we set the first to the current element.</li>
-  <li>Else if the element is smaller than the second, we set the second to the current element.</li>
-  <li>The third condition is the current element is greater than both first and second and hence we got a valid triplet.</li>
-</u>
+<p>This can be solved efficiently using the variation of <b>Kadane's Algorithm</b>. We will traverse the array and on each iteration, we maintain a <b>currentProduct state</b> that will have the current product of the subarray. If the <b>current product becomes 0, we will reset it to 1</b> since it will not contribute to the result. Also at each iteration, the element itself might be the maximum product and hence it should also be considered while considering the maximum product.
+
+Moreover, we need to <b>repeat</b> the process from the <b>end of the array to the start</b> because we might lose out of a potential solution if there are negatives at the beginning of the array. 
 </p>
 
 <h2>Edge Cases</h2>
