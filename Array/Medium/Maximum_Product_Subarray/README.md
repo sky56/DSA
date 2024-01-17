@@ -1,24 +1,26 @@
-<h1>Increasing Triplet Subsequence</h1>
+<h1>Maximum Product Subarray</h1>
 
-<p>Given an integer array nums, return true if there exists a triple of indices <b>(i, j, k) such that i < j < k and nums[i] < nums[j] < nums[k]</b>. If no such indices exist, return <b>false</b>.</p>
+<p>Given an integer array <b>nums</b>, find a subarray that has the <b>largest product</b>, and return the <b>product</b>.
+
+The test cases are generated so that the answer will fit in a <b>32-bit integer</b>.</p>
 
 <h2>Input Format</h2>
 
-<pre>
+<p>
 The only argument given is the integer array nums.
-</pre>
+</p>
 
 <h2>Output Format</h2>
 
-<pre>
-Return the boolean whether a valid triplet exists.
-</pre>
+<p>
+Return the integer to denote the maximum product subarray.
+</p>
 
 <h2>Constraints</h2>
 
 <pre>
-1 <= nums.length <= 5 * 10<sup>5</sup>
--2<sup>31</sup> <= nums[i] < 2<sup>32</sup> - 1
+1 <= nums.length <= 2 * 10<sup>4</sup>
+-10 <= nums[i] <= 10
 </pre>
 
 <h2>Test Cases</h2>
@@ -26,15 +28,15 @@ Return the boolean whether a valid triplet exists.
 <h4>Test Case 1</h4>
 
 <pre>
-nums = [1,2,3,4,5]
-Output: true
+nums = [2,3,-2,4]
+Output: 6
 </pre>
 
-<h4>Test Case 1</h4>
+<h4>Test Case 2</h4>
 
 <pre>
-nums = [5,4,3,2,1]
-Output: false
+nums = [-2,0,-1]
+Output: 0
 </pre>
 
 <h2>Companies</h2>
