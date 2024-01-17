@@ -1,7 +1,7 @@
 ## Arrays
 
 <details open>
-<summary><img id="array" src="https://img.shields.io/badge/Arrays-8-brightgreen?style=for-the-badge"></summary>
+<summary><img id="array" src="https://img.shields.io/badge/Arrays-9-brightgreen?style=for-the-badge"></summary>
 
 
 | S.No. | Topic:              | Problem                                                                                                                                                  | Difficulty                                                              | Links  |
@@ -14,6 +14,7 @@
 | 6     | `Array`             | [Maximum points Obtained From Cards](https://github.com/sky56/DSA/tree/main/Array/Medium/Maximum_Points_Obtain_From_Cards)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/problems/maximum-point-you-can-obtain-from-cards/1" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a> 
 | 7     | `Array`             | :star:  [First Missing Positive](https://github.com/sky56/DSA/tree/main/Array/Hard/First_Missing_Positive)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Hard-red"></a>  | <a href="https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/first-missing-positive/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
 | 8     | `Array`             | [Minimum Swaps](https://github.com/sky56/DSA/tree/main/Array/Medium/Minimum_Swaps)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/minimum-swaps-required-bring-elements-less-equal-k-together/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a>
+| 9     | `Array`             | [Max Chunks To Make Sorted](https://github.com/sky56/DSA/tree/main/Array/Medium/Max_Chunks_To_Make_Sorted)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/maximum-number-partitions-can-sorted-individually-make-sorted/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/max-chunks-to-make-sorted/description/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
 
 
 <br/>
