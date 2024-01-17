@@ -1,20 +1,6 @@
-<h1>Ways to Make a Fair Array</h1>
+<h1>Rotate Array</h1>
 
-<p>You are given an integer array <b>nums</b>. You can choose exactly <b>one index (0-indexed)</b> and <b>remove</b> the element. Notice that the index of the elements may change after the removal.
-
-For example, if <b>nums = [6,1,7,4,1]</b>:
-
-<ul>
-<li>Choosing to remove index <b>1</b> results in <b>nums = [6,7,4,1]</b>.</li>
-<li>Choosing to remove index <b>2</b> results in <b>nums = [6,1,4,1]</b>.</li>
-<li>Choosing to remove index <b>4</b> results in <b>nums = [6,1,7,4]</b>.</li>
-</ul>
-
-An array is <b>fair</b> if the sum of the odd-indexed values equals the sum of the even-indexed values.
-
-Return the <b>number of indices</b> that you could choose such that after the removal, nums is <b>fair</b>.
-
-</p>
+<p>Given an integer array <b>nums</b>, <b>rotate</b> the array to the right by <b>k</b> steps, where k is non-negative.</p>
 
 <h2>Input Format</h2>
 
@@ -25,14 +11,15 @@ The only argument given is the integer array nums.
 <h2>Output Format</h2>
 
 <pre>
-Return an integer which will be the count of indices, upon whose removal will make the array fair.
+No return type. The array needs to be rotated <b>in-place.</b>
 </pre>
 
 <h2>Constraints</h2>
 
 <pre>
 1 <= nums.length <= 10<sup>5</sup>
-1 <= nums[i] < 10<sup>4</sup>
+-2<sup>31</sup> <= nums[i] < 2<sup>32</sup> - 1
+0 <= k <= 10<sup>5</sup>
 </pre>
 
 <h2>Test Cases</h2>
@@ -40,15 +27,17 @@ Return an integer which will be the count of indices, upon whose removal will ma
 <h4>Test Case 1</h4>
 
 <pre>
-nums = [2,1,6,4]
-Output: 1
+nums = [1,2,3,4,5,6,7]
+k = 3
+Output: [5,6,7,1,2,3,4]
 </pre>
 
 <h4>Test Case 2</h4>
 
 <pre>
-nums = [1,1,1]
-Output: 3
+nums = [-1,-100,3,99]
+k = 2
+Output: [3,99,-1,-100]
 </pre>
 
 <h2>Companies</h2>
