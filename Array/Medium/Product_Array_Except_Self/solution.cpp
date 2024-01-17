@@ -12,21 +12,21 @@ vector<int> productExceptSelf(vector<int>& nums) {
         suffixProduct[i] = nums[i] * suffixProduct[i+1];
     }
 
-    vector<int> result;
+    vector<int> answer;
 
     for (int i = 0; i < n; i++) {
         if (i == 0) {
-            result.push_back(suffixProduct[i+1]);
+            answer.push_back(suffixProduct[i+1]);
             continue;
         }
         
         if (i == n - 1) {
-            result.push_back(prefixProduct[i-1]);
+            answer.push_back(prefixProduct[i-1]);
             continue;
         }
         
-        result.push_back(prefixProduct[i-1] * suffixProduct[i+1]);
+        answer.push_back(prefixProduct[i-1] * suffixProduct[i+1]);
     }
 
-    return result;
+    return answer;
 }
