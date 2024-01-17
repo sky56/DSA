@@ -1,7 +1,7 @@
 ## Arrays
 
 <details open>
-<summary><img id="array" src="https://img.shields.io/badge/Arrays-10-brightgreen?style=for-the-badge"></summary>
+<summary><img id="array" src="https://img.shields.io/badge/Arrays-11-brightgreen?style=for-the-badge"></summary>
 
 
 | S.No. | Topic:              | Problem                                                                                                                                                  | Difficulty                                                              | Links  |
@@ -16,7 +16,7 @@
 | 8     | `Array`             | [Minimum Swaps](https://github.com/sky56/DSA/tree/main/Array/Medium/Minimum_Swaps)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/minimum-swaps-required-bring-elements-less-equal-k-together/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a>
 | 9     | `Array`             | [Max Chunks To Make Sorted](https://github.com/sky56/DSA/tree/main/Array/Medium/Max_Chunks_To_Make_Sorted)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/maximum-number-partitions-can-sorted-individually-make-sorted/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/max-chunks-to-make-sorted/description/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
 | 10     | `Array`             | :star:  [Increasing Triplet Subsequence](https://github.com/sky56/DSA/tree/main/Array/Medium/Increasing_Triplet_Subsequence)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/find-a-sorted-subsequence-of-size-3-in-linear-time/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/increasing-triplet-subsequence/description/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
-
+| 11     | `Array`             | [Three Elements Min Cost](https://github.com/sky56/DSA/tree/main/Array/Easy/Three_Elements_Min_Cost)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Easy-green"></a>  | <a href="https://www.geeksforgeeks.org/minimum-cost-of-choosing-3-increasing-elements-in-an-array-of-size-n/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a>
 
 <br/>
 <div align="right">
