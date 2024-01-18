@@ -1,7 +1,7 @@
 ## Arrays
 
 <details open>
-<summary><img id="array" src="https://img.shields.io/badge/Arrays-18-brightgreen?style=for-the-badge"></summary>
+<summary><img id="array" src="https://img.shields.io/badge/Arrays-19-brightgreen?style=for-the-badge"></summary>
 
 
 | S.No. | Topic:              | Problem                                                                                                                                                  | Difficulty                                                              | Links  |
@@ -24,6 +24,7 @@
 | 16     | `Array`             | [Second Largest](https://github.com/sky56/DSA/tree/main/Array/Easy/Second_Largest)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Easy-green"></a>  | <a href="https://www.geeksforgeeks.org/find-second-largest-element-array/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a>
 | 17     | `Array`             | :star: [Find The Duplicate Number](https://github.com/sky56/DSA/tree/main/Array/Medium/Find_The_Duplicate_Number)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/duplicates-array-using-o1-extra-space-set-3/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/find-the-duplicate-number/description/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
 | 18     | `Array`             | [Plus One](https://github.com/sky56/DSA/blob/main/Array/Easy/Plus_One/README.md)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Easy-green"></a>  | <a href="https://www.geeksforgeeks.org/adding-one-to-number-represented-as-array-of-digits/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/plus-one/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
+| 19     | `Array`             | :star: [Majority Element](https://github.com/sky56/DSA/tree/main/Array/Easy/Majority_Element)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Easy-green"></a>  | <a href="https://www.geeksforgeeks.org/majority-element/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/majority-element/description/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
 
 
 
