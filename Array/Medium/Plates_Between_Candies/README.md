@@ -36,11 +36,14 @@ queries[i].length == 2
 <h2>Test Cases</h2>
 
 <h4>Test Case 1</h4>
-![image](https://assets.leetcode.com/uploads/2021/10/04/ex-1.png)
+
+
+![Example](https://assets.leetcode.com/uploads/2021/10/04/ex-1.png)
 
 <pre>
-nums = [3,2,3]
-Output: [3]
+s = "**|**|***|"
+queries = [[2,5],[5,9]]
+Output: [2,3]
 </pre>
 
 <h4>Test Case 2</h4>
