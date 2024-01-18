@@ -1,7 +1,7 @@
 ## Arrays
 
 <details open>
-<summary><img id="array" src="https://img.shields.io/badge/Arrays-20-brightgreen?style=for-the-badge"></summary>
+<summary><img id="array" src="https://img.shields.io/badge/Arrays-21-brightgreen?style=for-the-badge"></summary>
 
 
 | S.No. | Topic:              | Problem                                                                                                                                                  | Difficulty                                                              | Links  |
@@ -26,6 +26,7 @@
 | 18     | `Array`             | [Plus One](https://github.com/sky56/DSA/blob/main/Array/Easy/Plus_One/README.md)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Easy-Green"></a>  | <a href="https://www.geeksforgeeks.org/adding-one-to-number-represented-as-array-of-digits/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/plus-one/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
 | 19     | `Array`             | :star: [Majority Element](https://github.com/sky56/DSA/tree/main/Array/Easy/Majority_Element)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Easy-Green"></a>  | <a href="https://www.geeksforgeeks.org/majority-element/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/majority-element/description/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
 | 20     | `Array`             | [Majority Element 2](https://github.com/sky56/DSA/tree/main/Array/Medium/Majority_Element_2)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/find-all-array-elements-occurring-more-than-%E2%8C%8An-3%E2%8C%8B-times/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/majority-element-ii/description/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
+| 22     | `Array`             | [Plates Between Candies](https://github.com/sky56/DSA/tree/main/Array/Medium/Plates_Between_Candies)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://leetcode.com/problems/plates-between-candles/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
 
 
 
