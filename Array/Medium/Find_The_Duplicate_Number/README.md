@@ -1,38 +1,31 @@
-<h1>Ways to Make a Fair Array</h1>
+<h1>Find the Duplicate Number</h1>
 
-<p>You are given an integer array <b>nums</b>. You can choose exactly <b>one index (0-indexed)</b> and <b>remove</b> the element. Notice that the index of the elements may change after the removal.
+<p>Given an array of integers <b>nums</b> containing <b>n + 1</b> integers where each integer is in the <b>range [1, n] inclusive</b>.
 
-For example, if <b>nums = [6,1,7,4,1]</b>:
+There is only <b>one repeated number</b> in nums, return this repeated number.
 
-<ul>
-<li>Choosing to remove index <b>1</b> results in <b>nums = [6,7,4,1]</b>.</li>
-<li>Choosing to remove index <b>2</b> results in <b>nums = [6,1,4,1]</b>.</li>
-<li>Choosing to remove index <b>4</b> results in <b>nums = [6,1,7,4]</b>.</li>
-</ul>
-
-An array is <b>fair</b> if the sum of the odd-indexed values equals the sum of the even-indexed values.
-
-Return the <b>number of indices</b> that you could choose such that after the removal, nums is <b>fair</b>.
+You must solve the problem <b>without</b> modifying the array nums and using only <b>constant extra space</b>.
 
 </p>
 
 <h2>Input Format</h2>
 
-<pre>
+<p>
 The only argument given is the integer array nums.
-</pre>
+</p>
 
 <h2>Output Format</h2>
 
-<pre>
-Return an integer which will be the count of indices, upon whose removal will make the array fair.
-</pre>
+<p>
+Return an integer that is repeated in the array.
+</p>
 
 <h2>Constraints</h2>
 
 <pre>
-1 <= nums.length <= 10<sup>5</sup>
-1 <= nums[i] < 10<sup>4</sup>
+1 <= n <= 105
+nums.length = n + 1
+1 <= nums[i] <= n
 </pre>
 
 <h2>Test Cases</h2>
@@ -40,14 +33,14 @@ Return an integer which will be the count of indices, upon whose removal will ma
 <h4>Test Case 1</h4>
 
 <pre>
-nums = [2,1,6,4]
-Output: 1
+nums = [1,3,4,2,2]
+Output: 2
 </pre>
 
 <h4>Test Case 2</h4>
 
 <pre>
-nums = [1,1,1]
+nums = [3,1,3,4,2]
 Output: 3
 </pre>
 
