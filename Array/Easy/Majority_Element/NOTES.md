@@ -2,23 +2,50 @@
 
 <h2>Brute Force Approach</h2>
 
-<p>The naive approach will be that we <b>fix every prices[i] as the potential buy price</b> and then traverse each element in the right to get the maximum prices[i] for selling and calculate the profit accordingly.
+<p>There are <b>multiple</b> brute force solutions to solve this problem using the below techniques:
 
-<pre>
-  Time Complexity: O(N<sup>2</sup>)
-  Space Complexity: O(1)
-</pre>
+<ul>
+  <li>
+    <h3>Sorting</h3>
+    <pre>
+    Time Complexity: O(NLogN)
+    Space Complexity: O(N)</pre>
+  </li>
+
+  <li>
+    <h3>Double Iteration to check for duplicate</h3>
+    <pre>
+    Time Complexity: O(N<sup>2</sup>)
+    Space Complexity: O(1)</pre>
+  </li>
+
+  <li>
+    <h3>Using HashSet/HashMap</h3>
+    <pre>
+    Time Complexity: O(N)
+    Space Complexity: O(N)</pre>
+  </li>
+
+  <li>
+    <h3>Counting Sort</h3>
+    <pre>
+    Time Complexity: O(N)
+    Space Complexity: O(N)</pre>
+  </li>
+</ul>
+
+But all these solutions either do not suffice the required time complexity or space complexity.
 </p>
+
 
 <h2>Efficient Solution</h2>
 
-<p> To <b>maximize</b> the profit, we have to <b>minimize the cost price</b> and <b>maximize the selling price</b>. Thus we iterate every element in the array and on every iterate we keep <b>track of the minimum cost price</b>. We take the difference of the current element with the minimum cost price to calculate the profit and also update the maximum profit.
+<p> To solve this problem using constant extra space, we use an algorithm known as <b>Moore’s Voting Algorithm</b>. The algorithm states that if an element has a majority of N/2 frequency, then the rest of the elements will have a total count of less than N/2.
+
+Here we maintain 2 states: <b>currentMajorityElement</b> and <b>currentMajorityElementCounter</b>. We assume that the first element is the majority element and mark it as the majority element; thus <b>incrementing and decrementing the counter</b> based on the current element equals the majority element. If the counter becomes 0, we <b>reset</b> the majority element to the current element.
 </p>
 
 <h2>Edge Cases</h2>
-<ul>
-  <li>If there is no profit, the result should be 0.</li>
-</ul>
 
 <h2>Time Complexity</h2>
 
