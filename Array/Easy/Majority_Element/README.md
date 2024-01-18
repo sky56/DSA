@@ -3,6 +3,8 @@
 <p>Given an array <b>nums</b> of size <b>n</b>, return the <b>majority</b> element.
 
 The majority element is the element that appears <b>more than ⌊n / 2⌋ times</b>. You may assume that the majority element <b>always</b> exists in the array.
+
+<b>Note:</b> Solve the problem in linear time and in <b>O(1) space</b>.
 </p>
 
 <h2>Input Format</h2>
