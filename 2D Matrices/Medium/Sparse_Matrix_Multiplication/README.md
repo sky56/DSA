@@ -1,29 +1,26 @@
-<h1>Transpose Matrix</h1>
+<h1>Sparse Matrix Multiplication</h1>
 
-<p>Given a 2D integer array <b>matrix</b>, return the <b>transpose</b> of matrix.
-
-The transpose of a matrix is the matrix <b>flipped over its main diagonal</b>, switching the matrix's row and column indices.
+<p>Given two sparse matrices <b>mat1 of size m x k</b> and <b>mat2 of size k x n</b>, return the result of <b>mat1 x mat2</b>. You may assume that multiplication is always <b>possible</b>.
 </p>
 
 <h2>Input Format</h2>
 
 <p>
-First argument is a 2D matrix of integers <b>matrix</b>.
+The first argument is the 2-D integer matrix <b>mat1</b>.
+The second argument is the 2-D integer matrix <b>mat2</b>.
 </p>
 
 <h2>Output Format</h2>
 
-<p>Return the Transpose of this 2D matrix.
+<p>Return a 2D integer matrix denoting mat1 * mat2
 </p>
 
 <h2>Constraints</h2>
 
 <pre>
-m == matrix.length
-n == matrix[i].length
-1 <= m, n <= 10<sup>3</sup>
-1 <= m * n <= 10<sup>5</sup>
--10<sup>9</sup> <= matrix[i][k] <= 10<sup>9</sup>
+1 <= mat1.length, mat2.length <= 100
+1 <= mat1[i].length, mat2[i].length <= 100
+1 <= mat1[i][j], mat2[i][j] <= 100
 </pre>
 
 <h2>Test Cases</h2>
@@ -31,15 +28,15 @@ n == matrix[i].length
 <h4>Test Case 1</h4>
 
 ```
-matrix = [[1,2,3],[4,5,6],[7,8,9]]
-Output: [[1,4,7],[2,5,8],[3,6,9]]
+mat1 = [[1,0,0],[-1,0,3]], mat2 = [[7,0,0],[0,0,0],[0,0,1]]
+Output: [[7,0,0],[-7,0,3]]
 ```
 
 <h4>Test Case 2</h4>
 
 ```
-matrix = [[1,2,3],[4,5,6]]
-Output: [[1,4],[2,5],[3,6]]
+mat1 = [[1, 1]], mat2 = [[2],[3]]
+Output: [[5]]
 ```
 
 <h2>Companies</h2>
