@@ -1,12 +1,14 @@
 ## 2D Matrices
 
 <details open>
-<summary><img id="array" src="https://img.shields.io/badge/2D Matrices-1-brightgreen?style=for-the-badge"></summary>
+<summary><img id="array" src="https://img.shields.io/badge/2D Matrices-2-brightgreen?style=for-the-badge"></summary>
 
 
 | S.No. | Topic:              | Problem                                                                                                                                                  | Difficulty                                                              | Links  |
 | ----- |:-------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|--------|
-| 1     | `2D Matrices`             | [Matrix Transpose](https://github.com/sky56/DSA/tree/main/2D%20Matrices/Easy/Matrix_Transpose)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Easy-Green"></a>  | <a href="https://www.geeksforgeeks.org/program-to-find-transpose-of-a-matrix/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/transpose-matrix/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
+| 1     | `2D Matrices`             | ⭐ [Sparse Matrix Multiplication](https://github.com/sky56/DSA/tree/main/2D%20Matrices/Medium/Sparse_Matrix_Multiplication)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Medium-yellow"></a>  | <a href="https://www.geeksforgeeks.org/c-program-multiply-two-matrices/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/sparse-matrix-multiplication/description/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
+| 2     | `2D Matrices`             | [Matrix Transpose](https://github.com/sky56/DSA/tree/main/2D%20Matrices/Easy/Matrix_Transpose)      |  <a href="#" target="_blank"><img src="https://img.shields.io/badge/Easy-Green"></a>  | <a href="https://www.geeksforgeeks.org/program-to-find-transpose-of-a-matrix/" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"></img></a> <a href="https://leetcode.com/problems/transpose-matrix/" target="_blank"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></img></a>
+
 
 <br/>
 <div align="right">
